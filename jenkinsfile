@@ -3,7 +3,7 @@ agent any
 stages { 
 stage('Install dependencies') { 
 steps{ 
-script { 
+script {
 sh('npm install') 
 } 
 } 
